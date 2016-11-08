@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/fontMedium"
+            android:textStyle="normal"
+            android:layout_weight="1"
+            android:text="app"
+            android:textColor="@color/hockeyapp_text_black" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="@dimen/fontMedium"
+             android:textStyle="normal"
+            android:layout_weight="1"
+            android:textColor="@color/hockeyapp_text_black"
+            android:gravity="right" />
+    </LinearLayout>
+  <View
+    android:layout_width="1dp"
+    android:layout_height="match_parent"
+    android:background="#000000"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="@dimen/fontMedium"
+            android:textStyle="normal"
+            android:layout_weight="1"
+            android:textColor="@color/hockeyapp_text_black" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="@dimen/fontMedium"
+            android:textStyle="normal"
+            android:layout_weight="1"
+            android:textColor="@color/hockeyapp_text_black"
+            android:gravity="right"/>
+    </LinearLayout>
+</LinearLayout>

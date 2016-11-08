@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string  name= "tabDraftText">Draft</string>
+  <string  name= "tabPaidtText">Paid</string>
+  <string  name= "tabUnpaidText">Unpaid</string>
+  <string  name= "tabAllText">All</string>
+  <string name  ="txtHello">Hello</string>
+</resources>
